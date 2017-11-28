@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.zs.flyingducky.AttackActivity"
+    tools:showIn="@layout/activity_attack">
+
+    <ScrollView
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/AppTheme">
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:scrollbars="vertical|horizontal"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="21sp" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
